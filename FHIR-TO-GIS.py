@@ -2,8 +2,8 @@ import json
 import os
 import csv
 
-FOLDER = r"G:\BU_CS781-master\samples"
-OUTPUT = "patient_zipcodes.csv"
+FOLDER = r""
+OUTPUT = ""
 
 rows = []
 
