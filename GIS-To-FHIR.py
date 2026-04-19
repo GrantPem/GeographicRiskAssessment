@@ -3,8 +3,8 @@ import json
 import os
 from datetime import datetime
 
-INPUT = r"gisoutput.csv"
-OUTDIR = "G:\BU_CS781-master\Risk_Assessment"
+INPUT = r""
+OUTDIR = ""
 os.makedirs(OUTDIR, exist_ok=True)
 
 for i, row in enumerate(csv.DictReader(open(INPUT))):
