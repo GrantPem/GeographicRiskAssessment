@@ -1,0 +1,26 @@
+{
+  "resourceType": "RiskAssessment",
+  "status": "final",
+  "subject": {
+    "reference": "Patient/39b4eaac-6d32-3610-6cdf-20196fd708cb"
+  },
+  "occurrenceDateTime": "2026-04-19T00:24:29.834552",
+  "prediction": [
+    {
+      "outcome": {
+        "text": "Likely transmission vector"
+      },
+      "qualitativeRisk": {
+        "text": "American dog tick"
+      }
+    },
+    {
+      "outcome": {
+        "text": "Likely disease"
+      },
+      "qualitativeRisk": {
+        "text": "Tularemia and Rocky Mountain spotted fever."
+      }
+    }
+  ]
+}

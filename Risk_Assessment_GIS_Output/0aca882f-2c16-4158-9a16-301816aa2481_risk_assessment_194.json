@@ -1,0 +1,26 @@
+{
+  "resourceType": "RiskAssessment",
+  "status": "final",
+  "subject": {
+    "reference": "Patient/0aca882f-2c16-4158-9a16-301816aa2481"
+  },
+  "occurrenceDateTime": "2026-04-19T00:24:29.840156",
+  "prediction": [
+    {
+      "outcome": {
+        "text": "Likely transmission vector"
+      },
+      "qualitativeRisk": {
+        "text": "Lone star tick"
+      }
+    },
+    {
+      "outcome": {
+        "text": "Likely disease"
+      },
+      "qualitativeRisk": {
+        "text": "Ehrlichia chaffeensis and Ehrlichia ewingii (which cause human ehrlichiosis), tularemia, and STARI. "
+      }
+    }
+  ]
+}

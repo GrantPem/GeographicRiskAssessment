@@ -1,0 +1,26 @@
+{
+  "resourceType": "RiskAssessment",
+  "status": "final",
+  "subject": {
+    "reference": "Patient/c627dc38-606e-4a49-b8d5-dbaae01f266b"
+  },
+  "occurrenceDateTime": "2026-04-19T00:24:29.781754",
+  "prediction": [
+    {
+      "outcome": {
+        "text": "Likely transmission vector"
+      },
+      "qualitativeRisk": {
+        "text": "Blacklegged tick"
+      }
+    },
+    {
+      "outcome": {
+        "text": "Likely disease"
+      },
+      "qualitativeRisk": {
+        "text": "Lyme disease, anaplasmosis, babesiosis, and Powassan disease."
+      }
+    }
+  ]
+}

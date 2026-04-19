@@ -1,0 +1,26 @@
+{
+  "resourceType": "RiskAssessment",
+  "status": "final",
+  "subject": {
+    "reference": "Patient/81e1b4cb-6817-4bdc-97cd-c1f3ac960345"
+  },
+  "occurrenceDateTime": "2026-04-19T00:24:29.813133",
+  "prediction": [
+    {
+      "outcome": {
+        "text": "Likely transmission vector"
+      },
+      "qualitativeRisk": {
+        "text": "Brown dog tick"
+      }
+    },
+    {
+      "outcome": {
+        "text": "Likely disease"
+      },
+      "qualitativeRisk": {
+        "text": "Rocky Mountain spotted fever (in the southwestern U.S. and along the U.S.-Mexico border). "
+      }
+    }
+  ]
+}
